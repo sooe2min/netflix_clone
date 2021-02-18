@@ -18,6 +18,10 @@ export const Item = styled.div`
   margin-bottom: 10px;
   font-size: 26px;
   
+  $:last-child {
+    margin-bottom: 50px;
+  }
+
   @media (max-width: 600px) {
     font-size: 16px;
   }

@@ -14,13 +14,14 @@ export const Container = styled.div`
 `
 
 export const Text = styled.p`
-  font-size: 18px;
+  font-size: 19.2px;
   display: flex;
-  margin-top: 50px;
+  padding: 0 45px;
+  color: white;
 
   @media (max-width: 1000px) {
     font-size: 24px;
-    padding: 0 80px;
+    padding: 0 10%;
     margin: 24px auto;
     max-width: 450px;
     text-align: center;
@@ -28,10 +29,10 @@ export const Text = styled.p`
 `
 
 export const Input = styled.input`
-  max-width: 520px;
+  max-width: 450px;
   width: 100%;
-  border: 0;
-  height: 70px;
+  border: solid 1px #8c8c8c;
+  height: 60px;
   padding: 10px;
   box-sizing: border-box;
 `

@@ -8,6 +8,10 @@ export const Container = styled.div`
   width: 100%;
   padding: 70px 45px 20px 45px;
   color: #757575;
+
+  @media (max-width: 600px) {
+    padding: 0 10%;
+  }
 `
 
 export const Title = styled.div`
