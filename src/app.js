@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Router>
       {/* <Switch> */}
-      <Route exact path={ROUTES.HOME}>
+      <Route path={ROUTES.HOME}>
         <Home />
       </Route>
       <Route path={ROUTES.BROWSE}>
@@ -20,7 +20,6 @@ export default function App() {
         <Signin />
       </Route>
       {/* </Switch> */}
-
     </Router>
   );
 }

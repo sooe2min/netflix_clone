@@ -7,24 +7,24 @@ export const Container = styled.div`
   padding: 70px 45px;
 `
 
-export const Inner = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  width: 815px;
-`
-
 export const Item = styled.div`
   margin-bottom: 10px;
   font-size: 26px;
-  
-  $:last-child {
+
+  &:nth-child(6) {
     margin-bottom: 50px;
   }
 
   @media (max-width: 600px) {
     font-size: 16px;
   }
+`
+
+export const Inner = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 815px;
 `
 
 export const Title = styled.h1`

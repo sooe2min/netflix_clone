@@ -57,7 +57,7 @@ export const Text = styled.div`
   font-size: 14px;
 `
 
-export const Copy = styled.p`
+export const Copy = styled.div`
   font-size: 14px;
   margin: 0px 40px;
 `

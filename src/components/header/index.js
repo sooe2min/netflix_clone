@@ -13,6 +13,7 @@ Header.Frame = function HeaderFrame({ children, ...restProps }) {
 Header.Logo = function HeaderLogo({ to, ...restProps }) {
   return (
     <ReactRouterLink to={to}>
+      {console.log(restProps)}
       <Logo {...restProps} />
     </ReactRouterLink>
   )

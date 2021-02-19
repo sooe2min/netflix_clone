@@ -34,20 +34,19 @@ export const Logo = styled.img`
 `
 
 export const ButtonLink = styled(ReactRouterLink)`
-// display: block;
-background: #e50914;
-color: white;
-width: 84px;
-height: fit-content;
-border-radius: 3px;
-font-size: 16px;
-padding: 8px 17px;
-text-decoration: none;
-cursor: pointer;
-box-sizing: border-box;
+  background: #e50914;
+  color: white;
+  width: 84px;
+  height: fit-content;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 8px 17px;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
 
   &:hover {
-  background: #f40612;
-}
+    background: #f40612;
+  }
 `
 

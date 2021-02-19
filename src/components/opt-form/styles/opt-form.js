@@ -29,19 +29,21 @@ export const Text = styled.p`
 `
 
 export const Input = styled.input`
-  max-width: 450px;
+  max-width: 510px;
+  height: 70px;
   width: 100%;
   border: solid 1px #8c8c8c;
-  height: 60px;
   padding: 10px;
   box-sizing: border-box;
 `
 
 export const Button = styled.button`
+  min-width: 74px;
   display: flex;
   align-items: center;
   background: #e50914;
   border: 0;
+  border-left: 1px solid rgb(51, 51, 51);
   font-size: 26px;
   color: white;
   cursor: pointer;

@@ -36,12 +36,13 @@ export function FooterContainer() {
         <option>한국어</option>
       </Footer.Select>
       <Footer.Text>Netflix South Korea</Footer.Text>
+      <Footer.Break />
       <Footer.Copy>
-        <div>Netflix Services Korea Ltd. E-Commerce Registration Number: Je 2018-Seoul Jong-ro-0426 Ho. Phone: 00-308-321-0161</div>
-        <div>Representative: Reginald Shawn Thompson</div>
-        <div>Email: korea@netflix.com</div>
-        <div>Address: 20F, Tower A, Centropolis Building 26, Ujeongguk-ro, Jongno-gu, Seoul, 03161 Republic of Korea</div>
-        <div>Hosted by: Amazon Web Services Inc.</div>
+        Netflix Services Korea Ltd. E-Commerce Registration Number: Je 2018-Seoul Jong-ro-0426 Ho. Phone: 00-308-321-0161 <br />
+        Representative: Reginald Shawn Thompson <br />
+        Email: korea@netflix.com <br />
+        Address: 20F, Tower A, Centropolis Building 26, Ujeongguk-ro, Jongno-gu, Seoul, 03161 Republic of Korea <br />
+        Hosted by: Amazon Web Services Inc. <br />
         <a href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2018300016930200431&pageUnit=10&searchCnd=bup_nm&searchKrwd=%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&pageIndex=1">Link to KFTC website</a>
       </Footer.Copy>
     </Footer >

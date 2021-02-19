@@ -9,10 +9,10 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   color: white;
-  font-size: 50px;
+  font-size: 64px;
   font-weight: 700;
   margin: auto;
-  max-width: 640px;
+  max-width: 650px;
   text-align: center;
 
   @media (max-width: 600px) {
