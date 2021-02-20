@@ -7,7 +7,7 @@ export default function App() {
   return (
     <Router>
       {/* <Switch> */}
-      <Route path={ROUTES.HOME}>
+      <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
       <Route path={ROUTES.BROWSE}>
