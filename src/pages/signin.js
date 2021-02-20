@@ -7,14 +7,16 @@ import { Form } from '../components'
 import * as ROUTES from '../constants/routes'
 
 export default function Signin() {
-  const firebase = useContext(FirebaseContext)
+  const { firebase } = useContext(FirebaseContext)
   const history = useHistory()
-  const [emailAdress, setEmailAdress] = useState()
-  const [password, setPassword] = useState()
+
+  const [emailAdress, setEmailAdress] = useState('')
+  const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+
   const isInvalid = emailAdress === '' || password === ''
 
-  const handleSignIn = function (event) {
+  const handleSignin = function (event) {
     event.preventDefault()
 
     firebase
@@ -37,7 +39,7 @@ export default function Signin() {
           <Form.Title>Sign In</Form.Title>
           {error && <Form.Error>{error}</Form.Error>}
 
-          <Form.Base onClick={handleSignIn} method='POST'>
+          <Form.Base onClick={handleSignin} method='POST'>
             <Form.Input
               placeholder='Email or phone number'
               value={emailAdress}

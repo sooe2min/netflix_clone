@@ -8,7 +8,7 @@ import { firebase } from './lib/firebase.prod'
 
 render(
   <>
-    <FirebaseContext.Provider value={firebase}>
+    <FirebaseContext.Provider value={{ firebase }}>
       <GlobalStyles />
       <App />
     </FirebaseContext.Provider>
