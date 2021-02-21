@@ -31,7 +31,6 @@ export const Error = styled.div`
   margin: 0 0 16px;
   color: white;
   padding: 15px 20px;
-
 `
 
 export const Input = styled.input`
