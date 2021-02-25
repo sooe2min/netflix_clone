@@ -14,7 +14,7 @@ export function IsUserRedirect({ user, loggedInPath, children, ...rest }) {
           return (
             <Redirect
               to={{
-                pathname: { loggedInPath }
+                pathname: loggedInPath
               }}
             />
           )
@@ -39,12 +39,14 @@ export function ProtectedRoute({ user, children, ...rest }) {
           return (
             <Redirect
               to={{
-                pathname: 'signin',
+                pathname: '/signin',
                 state: { from: location }
               }}
             />
           )
         }
+
+        return null
       }}
     />
   )

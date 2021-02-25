@@ -1,12 +1,13 @@
-import React, { useState } from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import { Home, Browse, Signup, Signin } from './pages'
 import * as ROUTES from './constants/routes'
+import { useAuthListener } from './hooks'
 import { IsUserRedirect, ProtectedRoute } from './helpers/routes'
 
+
 export default function App() {
-  const user = null
-  // const { user, setUser } = useState()
+  const { user } = useAuthListener()
 
   return (
     <Router>

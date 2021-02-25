@@ -25,7 +25,7 @@ export default function Signup() {
       .createUserWithEmailAndPassword(emailAdress, password)
       .then(result => {
         result.user.updateProfile({
-          displayName: { firstName },
+          displayName: firstName,
           photoURL: Math.floor(Math.random() * 5 + 1)
         })
           .then(() => {
@@ -38,7 +38,6 @@ export default function Signup() {
         setPassword('')
         setError(error.message)
       })
-
   }
 
   return (
