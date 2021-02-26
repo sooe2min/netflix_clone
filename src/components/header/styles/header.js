@@ -6,7 +6,7 @@ export const Background = styled.div`
   flex-direction: column;
   padding-top: 20px;
   background: url(${({ src }) =>
-    src ? '../images/misc/$({src}).jpg' : '../images/misc/home-bg.jpg'})
+    src ? `../images/misc/${src}.jpg` : '../images/misc/home-bg.jpg'})
     top left / cover no-repeat; 
 `
 

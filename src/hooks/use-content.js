@@ -15,7 +15,6 @@ export default function useContent(target) {
           ...contentObj.data(),
           docId: contentObj.id
         }))
-
         setContent(allContent)
       })
       .catch(error => {
