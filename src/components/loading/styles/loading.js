@@ -1,11 +1,15 @@
 import styled, { createGlobalStyle } from 'styled-components/macro'
 
 export const LockBody = createGlobalStyle`
-  overflow: hidden;
+  body {
+    overflow: hidden;
+  }
 `
 
 export const ReleaseBody = createGlobalStyle`
-  overflow: visible;
+  body {
+    overflow: visible;
+  }
 `
 
 export const Picture = styled.img`
@@ -24,6 +28,7 @@ export const Spinner = styled.div`
   height: 100%;
   background-color: black;
   z-index: 999;
+
   :after {
     content: '';
     position: absolute;
