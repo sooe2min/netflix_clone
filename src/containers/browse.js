@@ -6,6 +6,7 @@ import * as ROUTES from '../constants/routes'
 import logo from '../logo.svg'
 
 export function BrowseContainer({ slides }) {
+  const [searchTurm, setSearchTurm] = useState('')
   const [profile, setProfile] = useState({})
   const [loading, setLoading] = useState(true)
   const { firebase } = useContext(FirebaseContext)
@@ -33,6 +34,10 @@ export function BrowseContainer({ slides }) {
 
           <Header.Group>
             <Header.Profile>
+              <Header.Search
+                searchTurm={searchTurm}
+                setSearchTurm={setSearchTurm}
+              />
               <Header.Picture src={user.photoURL} />
               <Header.Dropdown>
                 <Header.Group>
