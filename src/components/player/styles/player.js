@@ -69,5 +69,5 @@ export const Button = styled.button`
   border-color: #ff0a16;
   font-size: 18px;
   cursor: pointer;
-  text-transfrom: uppercase;
+  text-transform: uppercase;
 `
