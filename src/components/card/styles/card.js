@@ -41,6 +41,34 @@ export const Entities = styled.div`
   display: flex;
 `
 
+export const Meta = styled.div`
+  display: none;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  background-color: #0000008f;
+`
+
+export const SubTitle = styled.p`
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  user-select: none;
+  display: none;
+`
+
+export const Text = styled.p`
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-size: 10px;
+  color: #fff;
+  user-select: none;
+  line-height: normal;
+  display: none;
+`
+
 export const Item = styled.div`
   display: flex;
   flex-direction: column;
@@ -52,6 +80,13 @@ export const Item = styled.div`
   &:hover {
     transform: scale(1.3);
     z-index: 99;
+  }
+
+  @media (min-width: 1200px) {
+    &:hover ${Meta}, &:hover ${SubTitle}, &:hover ${Text} {
+      display: block;
+      z-index: 100;
+    }
   }
 
   &:first-of-type {
@@ -81,32 +116,6 @@ export const Image = styled.img`
   margin: 0;
 `
 
-export const Meta = styled.div`
-  display: none;
-  position: absolute;
-  bottom: 0;
-  padding: 10px;
-  background-color: #0000008f;
-`
-
-export const SubTitle = styled.p`
-  font-size: 12px;
-  color: #fff;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
-  user-select: none;
-  display: none;
-`
-
-export const Text = styled.p`
-  margin-top: 5px;
-  font-size: 10px;
-  color: #fff;
-  user-select: none;
-  line-height: noraml;
-  display: none;
-`
 
 export const FeatureText = styled.p`
   font-size: 18px;
