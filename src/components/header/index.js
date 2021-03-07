@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Background, Container, Logo, ButtonLink, Group, Link, Profile, Search, SearchIcon, SearchInput, Picture, Dropdown, Feature, FeatureCallOut, Text } from './styles/header'
+import { Background, Container, Logo, ButtonLink, Group, Link, Profile, Search, SearchIcon, SearchInput, Picture, Dropdown, Feature, FeatureCallOut, Text, PlayButton } from './styles/header'
 import { Link as ReactRouterLink } from 'react-router-dom'
 
 export default function Header({ bg = true, children, ...restProps }) {
@@ -72,3 +72,6 @@ Header.Text = function HeaderText({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>
 }
 
+Header.PlayButton = function HeaderPlayButton({ children, ...restProps }) {
+  return <PlayButton {...restProps}>{children}</PlayButton>
+}

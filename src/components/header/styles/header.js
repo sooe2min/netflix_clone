@@ -145,6 +145,7 @@ export const SearchIcon = styled.button`
 `
 
 export const SearchInput = styled.input`
+  transition: width 1s;
   background-color: #44444459;
   color: white;
   border: 1px solid white;
@@ -184,4 +185,24 @@ export const Text = styled.p`
   line-height: normal;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: 0;
+`
+
+export const PlayButton = styled.button`
+  box-shadow: 0 0.6vw 1vw 0.4vw rgba(0, 0, 0, 0.35);
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  border-width: 0;
+  color: #000;
+  margin-top: 30px;
+  max-width: 130px;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  transition: background-color 0.5s ease;
+  
+  &:hover {
+    background-color: #ff1e1e;
+    color: white;
+  }
 `
