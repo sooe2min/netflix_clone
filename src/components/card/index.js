@@ -29,14 +29,16 @@ Card.Entities = function CardEntities({ children, ...restProps }) {
 Card.Item = function CardItem({ item, children, ...restProps }) {
   const { setItemFeature, setShowFeature } = useContext(FeatureContext)
 
-  return <Item
-    onClick={() => {
-      setItemFeature(item)
-      setShowFeature(true)
-    }}
-    {...restProps}>
-    {children}
-  </Item >
+  return (
+    <Item
+      onClick={() => {
+        setItemFeature(item)
+        setShowFeature(true)
+      }}
+      {...restProps}>
+      {children}
+    </Item >
+  )
 }
 
 Card.Image = function CardImage({ ...restProps }) {

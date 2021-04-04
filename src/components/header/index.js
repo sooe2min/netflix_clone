@@ -36,6 +36,7 @@ Header.Profile = function HeaderProfile({ children, ...restProps }) {
 
 Header.Search = function HeaderSearch({ searchTurm, setSearchTurm, ...restProps }) {
   const [searchActive, setSearchActive] = useState(false)
+
   return (
     <Search {...restProps}>
       <SearchIcon onClick={() => setSearchActive(!searchActive)}>

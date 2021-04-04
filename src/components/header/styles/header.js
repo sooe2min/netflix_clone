@@ -84,7 +84,7 @@ export const Picture = styled.button`
 export const Dropdown = styled.div`
   display: none;
   position: absolute;
-  top: 37px;
+  top: 32px;
   right: 0;
   width: 110px;
   background-color: black;
