@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footer__Container-qu6i6-0 eVeZpC"
+>
+  <div
+    class="footer__Title-qu6i6-1 eaYck"
+  >
+    Questions? Call 00-308-321-0161
+  </div>
+  <p
+    class="footer__Break-qu6i6-8 gmGiXt"
+  />
+  <div
+    class="footer__Row-qu6i6-2 dQGCME"
+  >
+    <div
+      class="footer__Column-qu6i6-3 jtkbGA"
+    >
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        FAQ
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="footer__Column-qu6i6-3 jtkbGA"
+    >
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Help Center
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Jobs
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Legal Notices
+      </a>
+    </div>
+    <div
+      class="footer__Column-qu6i6-3 jtkbGA"
+    >
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Account
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="footer__Column-qu6i6-3 jtkbGA"
+    >
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Media Center
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="footer__Link-qu6i6-4 gIdRCz"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </div>
+  </div>
+  <select
+    class="footer__Select-qu6i6-5 dtflxu"
+  >
+    <option>
+      English
+    </option>
+    <option>
+      한국어
+    </option>
+  </select>
+  <div
+    class="footer__Text-qu6i6-6 gbMczL"
+  >
+    Netflix South Korea
+  </div>
+  <p
+    class="footer__Break-qu6i6-8 gmGiXt"
+  />
+  <div
+    class="footer__Copy-qu6i6-7 cdGFJz"
+  >
+    Netflix Services Korea Ltd. E-Commerce Registration Number: Je 2018-Seoul Jong-ro-0426 Ho. Phone: 00-308-321-0161 
+    <br />
+    Representative: Reginald Shawn Thompson 
+    <br />
+    Email: korea@netflix.com 
+    <br />
+    Address: 20F, Tower A, Centropolis Building 26, Ujeongguk-ro, Jongno-gu, Seoul, 03161 Republic of Korea 
+    <br />
+    Hosted by: Amazon Web Services Inc. 
+    <br />
+    <a
+      href="https://www.ftc.go.kr/www/bizCommView.do?key=232&apv_perm_no=2018300016930200431&pageUnit=10&searchCnd=bup_nm&searchKrwd=%EB%84%B7%ED%94%8C%EB%A6%AD%EC%8A%A4&pageIndex=1"
+    >
+      Link to KFTC website
+    </a>
+  </div>
+</div>
+`;
