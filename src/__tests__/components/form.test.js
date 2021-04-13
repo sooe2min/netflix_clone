@@ -1,8 +1,10 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import { Form } from '../../components'
+import { BrowserRouter, MemoryRouter } from 'react-router-dom'
+import * as ROUTES from '../../constants/routes'
 
-jest.mock('react-router-dom')
+// jest.mock('react-router-dom')
 
 describe('<Form />', () => {
   it('renders the <Form /> with populated data', () => {
@@ -28,12 +30,15 @@ describe('<Form />', () => {
 
         <Form.Text>
           New to Netflix?
-          {/* <Form.Link to="/signup">Sign up now</Form.Link> */}
+          {/* <BrowserRouter> */}
+          <Form.Link to={ROUTES.SIGN_IN}>Sign up now</Form.Link>
+          {/* </BrowserRouter> */}
         </Form.Text>
         <Form.TextSmall>
           This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
-          </Form.TextSmall>
+        </Form.TextSmall>
       </Form>
+      , { wrapper: MemoryRouter }
     )
 
     expect(getByText(`Sign In Now`)).toBeTruthy()

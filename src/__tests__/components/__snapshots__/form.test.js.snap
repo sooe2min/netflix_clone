@@ -52,6 +52,12 @@ exports[`<Form /> renders the <Form /> with populated data 1`] = `
     class="form__Text-sc-7952rh-7 gRSkfO"
   >
     New to Netflix?
+    <a
+      class="form__Link-sc-7952rh-6 lknUXu"
+      href="/signin"
+    >
+      Sign up now
+    </a>
   </p>
   <p
     class="form__TextSmall-sc-7952rh-8 iTjbBj"
