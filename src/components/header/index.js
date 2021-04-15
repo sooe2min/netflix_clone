@@ -3,7 +3,7 @@ import { Background, Container, Logo, ButtonLink, Group, Link, Profile, Search, 
 import { Link as ReactRouterLink } from 'react-router-dom'
 
 export default function Header({ bg = true, children, ...restProps }) {
-  return bg ? <Background {...restProps}>{children}</Background> : children
+  return bg ? <Background {...restProps} data-testid="header-bg">{children}</Background> : children
 }
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {
@@ -40,13 +40,14 @@ Header.Search = function HeaderSearch({ searchTurm, setSearchTurm, ...restProps 
   return (
     <Search {...restProps}>
       <SearchIcon onClick={() => setSearchActive(!searchActive)}>
-        <img src='/images/icons/search.png' alt='search' />
+        <img src='/images/icons/search.png' alt='search' data-testid="search-click" />
       </SearchIcon>
       <SearchInput
         placeholder='Search films and series'
         value={searchTurm}
         onChange={({ target }) => setSearchTurm(target.value)}
         active={searchActive}
+        data-testid="search-input"
       />
     </Search >
   )
