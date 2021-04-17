@@ -6,7 +6,7 @@ import { FooterContainer } from '../containers/footer'
 import { Form } from '../components'
 import * as ROUTES from '../constants/routes'
 
-export default function Signup() {
+export default function SignUp() {
   const { firebase } = useContext(FirebaseContext)
   const history = useHistory()
 
@@ -17,7 +17,7 @@ export default function Signup() {
 
   const isInvalid = firstName === '' || emailAdress === '' || password === ''
 
-  const handleSignup = function (event) {
+  const HandleSingUp = (event) => {
     event.preventDefault()
 
     firebase
@@ -28,9 +28,9 @@ export default function Signup() {
           displayName: firstName,
           photoURL: Math.floor(Math.random() * 5 + 1)
         })
-          .then(() => {
-            history.push(ROUTES.BROWSE)
-          })
+      })
+      .then(() => {
+        history.push(ROUTES.BROWSE)
       })
       .catch(error => {
         setFirstName('')
@@ -45,9 +45,9 @@ export default function Signup() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign Up</Form.Title>
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
-          <Form.Base onClick={handleSignup} method='POST'>
+          <Form.Base onSubmit={HandleSingUp} method='POST'>
             <Form.Input
               placeholder='First name'
               value={firstName}
@@ -65,7 +65,7 @@ export default function Signup() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type='submit'>
+            <Form.Submit disabled={isInvalid} type='submit' data-testid="sign-up">
               Sign Up
             </Form.Submit>
           </Form.Base>

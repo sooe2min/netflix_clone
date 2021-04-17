@@ -17,7 +17,7 @@ describe('<Profiles />', () => {
     )
 
     expect(getByText(`Who's watching?`)).toBeTruthy()
-    expect(getByTestId('profile-picture'))
+    expect(getByTestId('profile-picture')).toBeTruthy()
     expect(getByText('Soomin Jang')).toBeTruthy()
     expect(container.firstChild).toMatchSnapshot()
   })
@@ -36,7 +36,7 @@ describe('<Profiles />', () => {
     )
 
     expect(getByText(`Who's watching?`)).toBeTruthy()
-    expect(getByTestId('profile-picture-misc'))
+    expect(getByTestId('profile-picture-misc')).toBeTruthy()
     expect(getByText('Soomin Jang')).toBeTruthy()
     expect(container.firstChild).toMatchSnapshot()
   })

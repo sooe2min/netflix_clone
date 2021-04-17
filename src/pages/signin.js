@@ -6,7 +6,7 @@ import { FooterContainer } from '../containers/footer'
 import { Form } from '../components'
 import * as ROUTES from '../constants/routes'
 
-export default function Signin() {
+export default function SignIn() {
   const { firebase } = useContext(FirebaseContext)
   const history = useHistory()
 
@@ -16,7 +16,7 @@ export default function Signin() {
 
   const isInvalid = emailAdress === '' || password === ''
 
-  const handleSignin = function (event) {
+  const handleSignIn = (event) => {
     event.preventDefault()
 
     firebase
@@ -37,9 +37,9 @@ export default function Signin() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign In</Form.Title>
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
-          <Form.Base onClick={handleSignin} method='POST'>
+          <Form.Base onSubmit={handleSignIn} method='POST'>
             <Form.Input
               placeholder='Email or phone number'
               value={emailAdress}
@@ -52,7 +52,7 @@ export default function Signin() {
               value={password}
               onChange={({ target }) => setPassword(target.value)}
             />
-            <Form.Submit disabled={isInvalid} type='submit'>
+            <Form.Submit disabled={isInvalid} type='submit' data-testid="sign-in">
               Sign In
             </Form.Submit>
           </Form.Base>
