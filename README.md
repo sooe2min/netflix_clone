@@ -15,13 +15,13 @@
 
 #### 회고
 
-- [넷플릭스 클론 1. 정답 with CSS in JS](https://smss.netlify.app/2021-02-15-NETFLIX1/)
-- [넷플릭스 클론 2. 꼬리말 컴포넌트](https://smss.netlify.app/2021-02-16-NETFLIX2/)
-- [넷플릭스 클론 3. Context](https://smss.netlify.app/2021-02-17-NETFLIX3/)
-- [넷플릭스 클론 4. 라우팅](https://smss.netlify.app/2021-02-18-NETFLIX4/)
-- [넷플릭스 클론 5. 인증과 DB with 파이어베이스](https://smss.netlify.app/2021-02-19-NETFLIX5/)
-- [넷플릭스 클론 6. 라우팅 리팩토링 with Custom Hook](https://smss.netlify.app/2021-02-21-NETFLIX6/)
-- [넷플릭스 클론 7. 브라우즈 페이지](https://smss.netlify.app/2021-02-26-NETFLIX7/)
-- [넷플릭스 클론 8. React Testing](https://smss.netlify.app/2021-04-04-NETFLIX8/)
-- [넷플릭스 클론 9. Test](https://smss.netlify.app/2021-04-13-NETFLIX9/)
-- [넷플릭스 클론 10. 시행착오](https://smss.netlify.app/2021-04-17-NETFLIX10/)
+- [넷플릭스 클론 1. 정답 with CSS in JS](https://smss.netlify.app/2021-02-15-NETFLIX1_ANSWER)
+- [넷플릭스 클론 2. 꼬리말 컴포넌트](https://smss.netlify.app/2021-02-16-NETFLIX2_FOOTER)
+- [넷플릭스 클론 3. Context](https://smss.netlify.app/2021-02-17-NETFLIX3_CONTEXT)
+- [넷플릭스 클론 4. 라우팅](https://smss.netlify.app/2021-02-18-NETFLIX4_ROUTING)
+- [넷플릭스 클론 5. 인증과 DB with 파이어베이스](https://smss.netlify.app/2021-02-19-NETFLIX5_FIREBASE)
+- [넷플릭스 클론 6. 라우팅 리팩토링 with Custom Hook](https://smss.netlify.app/2021-02-21-NETFLIX6_REFACTORING)
+- [넷플릭스 클론 7. 브라우즈 페이지](https://smss.netlify.app/2021-02-26-NETFLIX7_BROWSE)
+- [넷플릭스 클론 8. React Testing](https://smss.netlify.app/2021-04-04-NETFLIX8_Testing)
+- [넷플릭스 클론 9. Test](https://smss.netlify.app/2021-04-13-NETFLIX9_Test)
+- [넷플릭스 클론 10. 시행착오](https://smss.netlify.app/2021-04-17-NETFLIX10_TRIALANDERROR)
