@@ -11,7 +11,7 @@
 - 인증 상태 관리를 위한 사용자 훅 useAuthListener 구현
 - 콘텐츠 상태 관리를 위한 사용자 훅 useContent 구현
 - 사용자 정보에 따라 라우팅하는 헬퍼 함수 IsUserRedirect, ProtectedRoute 구현
-- Fuze.js를 이용한 <u>Fuzzy Search</u> 기능 구현 [주어진 패턴과 거의 동일한 문자열을 찾는 기술 (rather than *exactly*)]
+- Fuze.js를 이용한 <u>Fuzzy Search</u> 기능 구현 [주어진 패턴과 거의 동일한 문자열을 찾는 기술]
 - 포탈을 이용해 비디오 엘리먼트를 임의 엘리먼트의 자식으로 렌더링하는 비디오 컴포넌트 구현
 - 구성 요소가 사용자를 위해 작동한다는 확신을 줄 수 있는 maintainable한 테스트 작성
 
