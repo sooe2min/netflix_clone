@@ -4,12 +4,14 @@
 
 #### Front-End
 
-- CSS in JS 기반 컴포넌트 생성 [자바스크립트를 사용하여 CSS를 작성하는 선언적인 컴포넌트 스타일링]
-- HTML5 History API를 사용하여 UI를 URL과 동기화
-- 파이어베이스 제품으로 인증을 처리하고 데이터를 저장
+- <u>CSS in JS</u> 기반 컴포넌트 생성 [자바스크립트를 사용하여 CSS를 작성하는 선언적인 컴포넌트 스타일링]
+- Compound Components 패턴 적용
+- HTML5 History API를 이용한 UI-URL 동기화
+- 파이어베이스 제품을 이용한 인증 처리 및 데이터 저장
 - 인증 상태 관리를 위한 사용자 훅 useAuthListener 구현
 - 콘텐츠 상태 관리를 위한 사용자 훅 useContent 구현
 - 사용자 정보에 따라 라우팅하는 헬퍼 함수 IsUserRedirect, ProtectedRoute 구현
+- Fuse.js를 이용한 <u>Fuzzy Search</u>(more formally known as *approximate string matching*) 기능 구현 [주어진 패턴과 거의 동일한 문자열을 찾는 기술 (rather than *exactly*)]
 - 포탈을 이용해 비디오 엘리먼트를 임의 엘리먼트의 자식으로 렌더링하는 비디오 컴포넌트 구현
 - 구성 요소가 사용자를 위해 작동한다는 확신을 줄 수 있는 maintainable한 테스트 작성
 
