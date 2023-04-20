@@ -4,6 +4,9 @@
 
 [Netflix Clone - React Tutorial - Styled Components - Firebase (Firestore & Auth)](https://youtu.be/x_EEwGe-a9o)
 
+### Stacks
+JavaScript, React, styled-components, React Testing Library, Firebase
+
 #### Front-End
 
 - <u>CSS in JS</u> 기반 컴포넌트 생성 [자바스크립트를 사용하여 CSS를 작성하는 선언적인 컴포넌트 스타일링]
